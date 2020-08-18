@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="mainblock">
+    <div class="logo">
+        <a href="index.html"><img src="img/logo1.png" alt="ecoscript.logo"></a>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="#">Портфолио</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </div>
+</section>
+
+
+
+<div class="bodyBx">
+    <div class="container">
+        <div class="box">
+            <div class="imgBx">
+                <img src="img/web.png" alt="web development">
+            </div>
+            <div class="contentBx">
+                <h2>РАЗРАБОТКА САЙТОВ</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis assumenda autem consequuntur doloribus est provident quibusdam, voluptatum aliquid quaerat sequi!</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBx">
+                <img src="img/design.png" alt="design">
+            </div>
+            <div class="contentBx">
+                <h2>РАЗРАБОТКА САЙТОВ</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis assumenda autem consequuntur doloribus est provident quibusdam, voluptatum aliquid quaerat sequi!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".box"), {
+        max: 25,
+        speed: 400
+    });
+</script>
+
+</body>
+</html>
